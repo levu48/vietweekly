@@ -2,7 +2,7 @@
     "galaxy.meteor.com": { 
         "env": { 
             "ROOT_URL": "http://vietweekly.com", 
-            "MONGO_URL": "mongodb://dbadmin:dbadmin9@aws-us-east-1-portal.7.dblayer.com:10733/vietweekly"
+            "MONGO_URL": "mongodb://xxxx:xxxx@aws-us-east-1-portal.7.dblayer.com:10733/vietweekly"
         } 
     }
 }

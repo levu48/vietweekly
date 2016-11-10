@@ -1,0 +1,42 @@
+/* CSS declarations go here */
+body {
+    margin: 0
+}
+
+.channel {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 68;
+    bottom: 0;
+    height: calc(100% - 68px);
+    width: 350;
+    z-index: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+    
+.channel::-webkit-scrollbar {
+    width: 2px;
+}
+
+.plain a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+
+.sourceLink a:-webkit-any-link {
+    color: gray;
+    cursor: auto;
+}
+
+.formLabel {
+    color: gray;
+    margin-top: 10;
+}
+
+.search li:hover {
+    background: grey;
+}
+
